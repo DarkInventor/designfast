@@ -27,7 +27,7 @@ const CTA = () => {
               design kit on Figma!
             </p>
             <NavLink
-              href="/get-started"
+              href="https://buy.stripe.com/dR6bLR9Mg1vvcMweV7"
               className="inline-block mt-4 font-medium text-md text-white bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 hover:bg-white active:bg-white hover:from-yellow-500 hover:via-red-500 hover:to-pink-500 hover: ring ring-transparent ring-offset-2 transition mb-2"
             >
               $29 (one-time)
