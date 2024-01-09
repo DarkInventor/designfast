@@ -3,10 +3,10 @@ import Link from "next/link";
 const Brand = () => (
     <Link href="/">
         <img
-            src="/hidesign.svg"
+            src="/Designfast.svg"
             width={290}
             height={150}
-            alt="Blinder logo"
+            alt="Designfast logo"
         />  
     </Link>
 )
