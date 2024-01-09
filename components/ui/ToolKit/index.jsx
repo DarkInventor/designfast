@@ -7,7 +7,7 @@ import nodejs from "../../../public/icons/nodejs.svg"
 import vercel from "../../../public/icons/vercel.svg"
 import figma from "../../../public/icons/figma.svg"
 import NavLink from "../NavLink";
-import ctaImage from "../../../public/cover2.png";
+import ctaImage from "../../../public/Cover2.png";
 
 const ToolKit = () => {
 

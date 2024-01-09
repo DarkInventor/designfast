@@ -1,6 +1,6 @@
 import SectionWrapper from "../../SectionWrapper";
 import NavLink from "../NavLink";
-import ctaImage from "../../../public/cover.jpg";
+import ctaImage from "../../../public/Cover.jpg";
 import Image from "next/image";
 
 const CTA = () => {
