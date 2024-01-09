@@ -9,7 +9,7 @@ const Footer = () => (
     <footer>
         <div className="custom-screen pt-16">
             <div className="mt-10 py-10 border-t items-center justify-between sm:flex">
-                <p className="text-gray-600">© 2024 HiDesign. All rights reserved.</p>
+                <p className="text-gray-600">© 2024 Designfast. All rights reserved.</p>
                 <div className="flex items-center gap-x-6 text-gray-400 mt-6">
                     {
                         socialInfo.map((item, idx) => (

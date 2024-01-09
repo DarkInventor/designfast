@@ -14,7 +14,7 @@ export default function GetStarted() {
   return (
     <>
       <Head>
-        <title>Contact us - Blinder</title>
+        <title>Contact us - Designfast</title>
       </Head>
       <div className='pt-28 pb-12'>
         <div className='custom-screen text-gray-600'>
