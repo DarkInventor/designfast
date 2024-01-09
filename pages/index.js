@@ -7,10 +7,27 @@ import Hero from "../components/ui/Hero";
 import LogoGrid from "../components/ui/LogoGrid";
 import Testimonials from "../components/ui/Testimonials";
 import ToolKit from "../components/ui/ToolKit";
+import Script from "next/script";
 
 export default function Home() {
   return (
     <>
+      <div className="container">
+        <script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-R4QYTMFJYT"
+        ></script>
+        <script>
+          {`
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+
+              gtag('config', 'G-R4QYTMFJYT');
+          `}
+        </script>
+      </div>
+
       <Head>
         <meta name="robots" content="index" />
       </Head>
