@@ -8,6 +8,7 @@ import LogoGrid from "../components/ui/LogoGrid";
 import Testimonials from "../components/ui/Testimonials";
 import ToolKit from "../components/ui/ToolKit";
 import Script from "next/script";
+import Details from "../components/ui/Details";
 
 export default function Home() {
   return (
@@ -38,8 +39,9 @@ export default function Home() {
         <Features />
         <ToolKit />
       </GradientWrapper>
-
-      <GradientWrapper>
+      <Details />
+      <FooterCTA />
+      <GradientWrapper>       
         <Testimonials />
       </GradientWrapper>
       <FooterCTA />

@@ -51,7 +51,7 @@ const LogoGrid = () => (
           alt=""
         />
       </div>
-      <div className="h-screen flex items-center justify-center hidden md:hidden lg:flex">
+      <div className="h-screen flex items-center justify-center">
         <video
           autoPlay
           loop
@@ -82,6 +82,7 @@ const LogoGrid = () => (
                 </ul>
             </div> */}
     </div>
+    {/* <iframe className="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2F3JNmDeIdKdLb2SUu7jwZkQ%2FDesignFast-%255BFigma-Library%255D%3Ftype%3Ddesign%26node-id%3D22%253A2145%26mode%3Ddesign%26t%3DmBupEaW0oSIfSDe4-1" allowfullscreen></iframe> */}
   </div>
 );
 
