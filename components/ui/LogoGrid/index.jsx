@@ -51,7 +51,7 @@ const LogoGrid = () => (
           alt=""
         />
       </div>
-      <div className="h-screen flex items-center justify-center">
+      <div className="h-screen lg:flex hidden items-center justify-center sm:hidden md:hidden">
         <video
           autoPlay
           loop
