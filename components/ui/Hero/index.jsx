@@ -9,9 +9,17 @@ const Hero = () => (
                     <p className="text-5xl uppercase bg-clip-text text-transparent bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 font-black"> Convert 🚀</p>
                 </h1> */}
         <h1 className="text-4xl text-gray-800 font-extrabold mx-auto sm:text-6xl">
-          Well-Designed Landing Page Components that{" "}
-          <span className="lg:text-6xl bg-clip-text text-transparent bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 font-black">
-            convert 🚀
+          <span className="relative">
+            Well-Designed 
+            <span className="absolute inset-x-0 bottom-0 h-0.5 bg-gradient-to-r from-green-500 via-blue-500 to-purple-500"></span>
+          </span>
+          {" "}Landing Page{" "}
+          {/* <span className="lg:text-6xl bg-clip-text text-transparent bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 font-black mr-3"> */}
+            Components that {" "}
+          {/* </span> */}
+          <span className="relative">
+            Convert 🚀
+            <span className="absolute inset-x-0 bottom-0 h-0.5 bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500"> </span>
           </span>
         </h1>
 
