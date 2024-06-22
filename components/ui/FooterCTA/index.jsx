@@ -10,12 +10,6 @@ const FooterCTA = () => (
           <br />
           Figma Design Kit today
         </h2>
-        {/* <NavLink
-                    href="/get-started"
-                    className="mt-4 inline-block font-medium text-sm text-white bg-gray-800 hover:bg-gray-600 active:bg-gray-900"
-                >
-                    Start building
-                </NavLink> */}
         <div className="flex items-center justify-center gap-x-3 font-medium text-sm mt-5">
           <NavLink
             href="https://buy.stripe.com/dR6bLR9Mg1vvcMweV7"

@@ -8,11 +8,6 @@ function Details() {
         id="details"
         className="lg:max-h-[500px] flex flex-col sm:flex-row sm:overflow-hidden justify-center max-w-screen-xl mx-auto px-4 text-gray-600 md:px-8 p-12 rounded-2xl text-white"
       >
-        {/* <img
-            src="/nav2.png"
-            alt="Designfast logo"
-            className="mr-24 lg: w-[500px] h-[400px] border rounded-lg"
-        />   */}
         <iframe
           className="w-full border: 1px solid rgba(0, 0, 0, 0.1); mr-4 lg:w-[500px] h-[400px] sm:w-[500px] h-[400px] border rounded-2xl sm:mb-0"
           src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2F3JNmDeIdKdLb2SUu7jwZkQ%2FDesignFast-%255BFigma-Library%255D%3Ftype%3Ddesign%26node-id%3D19%253A1905%26mode%3Ddesign%26t%3DYA658wRrzPSf0jVB-1"

@@ -68,21 +68,7 @@ const LogoGrid = () => (
           Your browser does not support the video tag.
         </video>
       </div>    
-
-    
-      {/* <div className="mt-6">
-                <ul className="flex gap-x-10 gap-y-6 flex-wrap items-center justify-center md:gap-x-16">
-                    {
-                        logos.map((item, idx) => (
-                            <li key={idx}>
-                                <Image src={item.src} alt={item.alt} />
-                            </li>
-                        ))
-                    }
-                </ul>
-            </div> */}
-    </div>
-    {/* <iframe className="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2F3JNmDeIdKdLb2SUu7jwZkQ%2FDesignFast-%255BFigma-Library%255D%3Ftype%3Ddesign%26node-id%3D22%253A2145%26mode%3Ddesign%26t%3DmBupEaW0oSIfSDe4-1" allowfullscreen></iframe> */}
+    </div>   
   </div>
 );
 

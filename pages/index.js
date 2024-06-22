@@ -41,7 +41,7 @@ export default function Home() {
       </GradientWrapper>
       <Details />
       <FooterCTA />
-      <GradientWrapper>       
+      <GradientWrapper>
         <Testimonials />
       </GradientWrapper>
       <FooterCTA />
